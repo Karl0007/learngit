@@ -12,4 +12,6 @@ git reflog
 移动到节点
 git reset --hard <commit id>
 
+查看状态
+git status
 
