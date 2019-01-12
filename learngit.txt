@@ -2,7 +2,9 @@
 git init
 
 更新
+放到暂存区
 git add <filename>
+提交修改
 git commit -m "<update message>"
 
 查看更新信息
@@ -15,3 +17,8 @@ git reset --hard <commit id>
 查看状态
 git status
 
+撤销当前工作区修改
+git checkout -- <filename>
+
+撤销当前暂存区修改
+git reset HEAD <filename>
