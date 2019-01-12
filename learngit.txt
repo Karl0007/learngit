@@ -22,3 +22,6 @@ git checkout -- <filename>
 
 撤销当前暂存区修改
 git reset HEAD <filename>
+
+远程仓库
+git remote add origin git@github.com:karl0007/<project name>
