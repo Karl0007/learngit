@@ -1,0 +1,15 @@
+创建仓库
+git init
+
+更新
+git add <filename>
+git commit -m "<update message>"
+
+查看更新信息
+git log
+git reflog
+
+移动到节点
+git reset --hard <commit id>
+
+
