@@ -25,3 +25,6 @@ git reset HEAD <filename>
 
 远程仓库
 git remote add origin git@github.com:karl0007/<project name>
+
+首次推送
+git push -u origin master
