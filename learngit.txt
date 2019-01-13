@@ -44,3 +44,6 @@ git checkout <name>
 git merge <name>
 删除分支
 git branch -d <name>
+
+非快速合并
+git merge --no-ff -m <update message> <branch name>
