@@ -1,4 +1,4 @@
-sudo apt-get install g++ git cmake
+sudo apt-get install g++ git cmake clang
 git config --global user.email 1474402804@qq.com
 git config --global user.name karl07
 ssh-keygen -t rsa -C "1474402804@qq.com"
