@@ -47,3 +47,6 @@ git branch -d <name>
 
 非快速合并
 git merge --no-ff -m <update message> <branch name>
+
+查看信息
+git log --graph --pretty=oneline --abbrev-commit
