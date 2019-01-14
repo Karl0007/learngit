@@ -1,0 +1,8 @@
+//全局变量
+int global; //所有文件
+static int one_file; //单个文件
+
+int xx; // 分配空间
+extern int yy;//不分配空间
+
+// -lpthread 多线程

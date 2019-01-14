@@ -73,3 +73,6 @@ git remote
 git tag <tag name>
 删除标签
 git tag -d <tag name>
+推送标签
+git push origin <tag name>
+git push origin --tag
