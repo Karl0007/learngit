@@ -1,4 +1,4 @@
-//全局变量
+﻿//全局变量
 int global; //所有文件
 static int one_file; //单个文件
 
@@ -6,3 +6,12 @@ int xx; // 分配空间
 extern int yy;//不分配空间
 
 // -lpthread 多线程
+
+mutable //在const中可修改
+
+thread_local // 线程中的static
+
+extern const int global_data=123; // 外部链接的常量
+
+char buffer[N];
+double * p = new (buffer) double[M]; //指定内存位置分配内存
